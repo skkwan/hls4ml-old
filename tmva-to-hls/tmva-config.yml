@@ -1,6 +1,6 @@
-TMVAxml: example-tmva-model-files/TMVA.xml
-OutputDir: my-hls-test
-ProjectName: myproject
+TMVAxml: weights/TMVAClassification_BDT.weights.xml
+OutputDir: tmva-to-hls-test
+ProjectName: tmva-to-hls-test
 XilinxPart: xc7vx690tffg1927-2
 ClockPeriod: 5
 
