@@ -377,7 +377,7 @@ def parse_config(config_file) :
 
     print("Loading configuration from " + str(config_file))
     config = open(config_file, 'r')
-    return yaml.load(config)
+    return yaml.safe_load(config)
 
 #######################################
 ## Print a bias or weight array to C++
@@ -482,7 +482,7 @@ def bdt_writer_vhd(ensembleDict, yamlConfig):
 
   dtype = yamlConfig['DefaultPrecision']
   if not 'ap_fixed' in dtype:
-    print "Only ap_fixed is currently supported, exiting"
+    print("Only ap_fixed is currently supported, exiting")
     sys.exit()
   dtype = dtype.replace('ap_fixed<', '').replace('>', '')
   dtype_n = int(dtype.split(',')[0].strip()) # total number of bits

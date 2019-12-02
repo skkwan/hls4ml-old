@@ -1,4 +1,5 @@
 TMVAxml: weights/TMVAClassification_BDT.weights.xml
+Backend: HLS
 OutputDir: tmva-to-hls-test
 ProjectName: tmva-to-hls-test
 XilinxPart: xc7vx690tffg1927-2

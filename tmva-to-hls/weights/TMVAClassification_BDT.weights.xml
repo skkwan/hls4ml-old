@@ -18,7 +18,7 @@
     <Option name="H" modified="No">False</Option>
     <Option name="CreateMVAPdfs" modified="No">False</Option>
     <Option name="IgnoreNegWeightsInTraining" modified="No">False</Option>
-    <Option name="NTrees" modified="No">800</Option>
+    <Option name="NTrees" modified="No">226</Option>
     <Option name="MaxDepth" modified="No">3</Option>
     <Option name="MinNodeSize" modified="No">5%</Option>
     <Option name="nCuts" modified="No">20</Option>
